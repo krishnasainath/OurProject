@@ -13,7 +13,9 @@
         <servlet.version>3.1.0</servlet.version>
         <servlet.version>3.0.1</servlet.version>
         <mysql.connector.version>5.1.9</mysql.connector.version>
-    </properties>
+    		<maven.compiler.source>1.6</maven.compiler.source>
+    		<maven.compiler.target>1.6</maven.compiler.target>
+    		</properties>
     <dependencies>
         <!-- Junit -->
         <dependency>
