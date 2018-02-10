@@ -6,28 +6,29 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Insert title here</title>
 </head>
-            <form:form id="loginForm" modelAttribute="login" action="loginProcess" method="post">
+<body>
+            <form id="loginForm" action="loginProcess" method="post">
                 <table align="center">
                     <tr>
                         <td>
-                            <form:label path="username">Username: </form:label>
+                            Username:
                         </td>
                         <td>
-                            <form:input path="username" name="username" id="username" />
+                            <input type="text" name="username"/>
                         </td>
                     </tr>
                     <tr>
                         <td>
-                            <form:label path="password">Password:</form:label>
+                            Password:
                         </td>
                         <td>
-                            <form:password path="password" name="password" id="password" />
+                            <input type="text" name="password"/>
                         </td>
                     </tr>
                     <tr>
                         <td></td>
                         <td align="left">
-                            <form:button id="login" name="login">Login</form:button>
+                            <input type="button" id="login" name="login" value="Login">
                         </td>
                     </tr>
                     <tr></tr>
@@ -37,7 +38,7 @@
                         </td>
                     </tr>
                 </table>
-            </form:form>
+            </form>
             <table align="center">
                 <tr>
                     <td style="font-style: italic; color: red;">${message}</td>

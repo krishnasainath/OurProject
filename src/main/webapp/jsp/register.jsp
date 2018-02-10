@@ -7,68 +7,68 @@
 <title>Insert title here</title>
 </head>
 <body>
-<form:form id="regForm" modelAttribute="user" action="registerProcess" method="post">
+<form id="regForm" action="registerProcess" method="post">
                 <table align="center">
                     <tr>
                         <td>
-                            <form:label path="username">Username</form:label>
+                            Username
                         </td>
                         <td>
-                            <form:input path="username" name="username" id="username" />
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <form:label path="password">Password</form:label>
-                        </td>
-                        <td>
-                            <form:password path="password" name="password" id="password" />
+                            <input type="text" name="username"/>
                         </td>
                     </tr>
                     <tr>
                         <td>
-                            <form:label path="firstname">FirstName</form:label>
+                            Password
                         </td>
                         <td>
-                            <form:input path="firstname" name="firstname" id="firstname" />
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <form:label path="lastname">LastName</form:label>
-                        </td>
-                        <td>
-                            <form:input path="lastname" name="lastname" id="lastname" />
+                            <input type="text" name="password]"/>
                         </td>
                     </tr>
                     <tr>
                         <td>
-                            <form:label path="email">Email</form:label>
+                            FirstName
                         </td>
                         <td>
-                            <form:input path="email" name="email" id="email" />
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <form:label path="address">Address</form:label>
-                        </td>
-                        <td>
-                            <form:input path="address" name="address" id="address" />
+                            <input type="text" name="firstname"/>
                         </td>
                     </tr>
                     <tr>
                         <td>
-                            <form:label path="phone">Phone</form:label>
+                            LastName
                         </td>
                         <td>
-                            <form:input path="phone" name="phone" id="phone" />
+                            <input type="text" name="lastname"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Email
+                        </td>
+                        <td>
+                            <<input type="text" name="email"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Address
+                        </td>
+                        <td>
+                            <input type="text" name="address"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Phone
+                        </td>
+                        <td>
+                            <input type="text" name="phone"/>
                         </td>
                     </tr>
                     <tr>
                         <td></td>
                         <td>
-                            <form:button id="register" name="register">Register</form:button>
+                            <input type="button" id="register" name="register" value="Register">
                         </td>
                     </tr>
                     <tr></tr>
@@ -78,6 +78,6 @@
                         </td>
                     </tr>
                 </table>
-            </form:form>
+            </form>
 </body>
 </html>
